@@ -1,0 +1,9 @@
+Links para artigos que irão ajudar na resolução do problema:
+
+https://www.youtube.com/watch?v=8cNpLnH1dsU
+
+https://pt.stackoverflow.com/questions/236017/exportando-dados-em-json-ou-txt-no-python
+
+https://www.youtube.com/watch?v=UCOJWSnKCT0&list=PLbIBj8vQhvm0ayQsrhEf-7-8JAj-MwmPr&index=38
+
+
