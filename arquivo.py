@@ -1,5 +1,7 @@
 import os # biblioteca responsável por acessar arquivos
 import shutil # biblioteca responsável para realizar a movimentação de arquivos/pastas
+from pathlib import Path
+import json # biblioteca usada para ler arquivo com os nomes dos diretorios que as pastas serão criadas
 
 def boas_vindas():
     print('Hello World')
@@ -9,18 +11,31 @@ def cria_pasta():
 
 
     if not os.path.exists(nome_pasta):
-            print()
+            print("--------------------------------")
             os.makedirs(nome_pasta)
             print(f'A pasta "{nome_pasta}" foi criada!')
+            print("--------------------------------")
+            os.chdir(nome_pasta) # muda o diretório para a pasta criada
     else:
+            print("--------------------------------")
             print(f'Pasta "{nome_pasta}" já foi criada')
+            print("--------------------------------")
+    # os.chdir()
+
 
 def exibe_caminho_atual():
-    print('# ainda vou criar um metodo que exibe o caminho atual da pasta')
+    print()
+    print("--------------------------------")
+    print("O Caminho da pasta é: ")
+    print(os.getcwd())
+    print("--------------------------------")
+    print()
 
 
 if __name__ == "__main__":
     boas_vindas()
-    print()
+    print("--------------------------------")
     exibe_caminho_atual()
+    print("--------------------------------")
     cria_pasta()
+    print("--------------------------------")
