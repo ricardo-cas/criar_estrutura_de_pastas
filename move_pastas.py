@@ -19,7 +19,7 @@ def cria_pasta():
             print("--------------------------------")
             print(f'Pasta "{nome_pasta}" já foi criada')
             print("--------------------------------")
-    # os.chdir()
+    os.chdir('.')
 
 
 def exibe_caminho_atual():
@@ -27,7 +27,7 @@ def exibe_caminho_atual():
     print(os.getcwd())
 
 
-if __name__ == "__main__":
+def inicia_programa():
     boas_vindas()
     print("--------------------------------")
     exibe_caminho_atual()

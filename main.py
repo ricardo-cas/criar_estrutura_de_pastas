@@ -1,6 +1,5 @@
 import move_pastas
 
 if __name__ == "__main__":
+    move_pastas.inicia_programa()
     pass
-move_pastas.cria_pasta()
-move_pastas.exibe_caminho_atual()
