@@ -9,7 +9,6 @@ def boas_vindas():
 def cria_pasta():
     nome_pasta = input('Qual o nome da Pasta?: ')
 
-
     if not os.path.exists(nome_pasta):
             print("--------------------------------")
             os.makedirs(nome_pasta)
@@ -24,12 +23,8 @@ def cria_pasta():
 
 
 def exibe_caminho_atual():
-    print()
-    print("--------------------------------")
     print("O Caminho da pasta é: ")
     print(os.getcwd())
-    print("--------------------------------")
-    print()
 
 
 if __name__ == "__main__":
