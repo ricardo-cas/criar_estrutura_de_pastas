@@ -29,5 +29,5 @@ def inicia_programa():
     cria_pasta()
 
 # método main para backup
-if __name__ == "__main__":
-    inicia_programa()
+# if __name__ == "__main__":
+#     inicia_programa()
