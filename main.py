@@ -1,5 +1,5 @@
-import mover_pastas
+import mover_pastas, criar_pastas, criar_arquivo
+
 
 if __name__ == "__main__":
-    mover_pastas.inicia_programa()
-    pass
+    criar_pastas.inicia_programa()
