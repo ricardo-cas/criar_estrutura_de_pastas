@@ -1,5 +1,5 @@
-import move_pastas
+import mover_pastas
 
 if __name__ == "__main__":
-    move_pastas.inicia_programa()
+    mover_pastas.inicia_programa()
     pass
