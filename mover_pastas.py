@@ -20,6 +20,8 @@ def cria_pasta():
             print(f'Pasta "{nome_pasta}" já foi criada')
             print("--------------------------------")
     
+def move_Pasta():
+    print('Logo vou mover algo')
 
 
 def exibe_caminho_atual():
