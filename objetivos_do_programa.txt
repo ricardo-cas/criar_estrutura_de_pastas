@@ -1,5 +1,5 @@
-1)  identificar um meio de criar uma pasta []
-2)  aprender como criar um arquivo []
+1)  identificar um meio de criar uma pasta [X]
+2)  aprender como criar um arquivo [X]
 3)  aprender como mover arquivos []
 4)  aprender como copiar arquivos []
 5)  criar pastas/arquivos a partir de uma lista em um arquivo externo
