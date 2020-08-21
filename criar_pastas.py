@@ -20,17 +20,14 @@ def cria_pasta():
             print(f'Pasta "{nome_pasta}" já foi criada')
             print("--------------------------------")
     
-
-
 def exibe_caminho_atual():
     print("O Caminho da pasta é: ")
     print(os.getcwd())
 
 
 def inicia_programa():
-    boas_vindas()
-    print("--------------------------------")
-    exibe_caminho_atual()
-    print("--------------------------------")
     cria_pasta()
-    print("--------------------------------")
+
+# método main para backup
+if __name__ == "__main__":
+    inicia_programa()
