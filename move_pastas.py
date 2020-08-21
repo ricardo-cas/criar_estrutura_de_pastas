@@ -1,4 +1,4 @@
-import os # biblioteca responsável por acessar arquivos
+import os # biblioteca responsável por acessar arquivos e pastas do sistema
 import shutil # biblioteca responsável para realizar a movimentação de arquivos/pastas
 from pathlib import Path
 import json # biblioteca usada para ler arquivo com os nomes dos diretorios que as pastas serão criadas
@@ -14,12 +14,12 @@ def cria_pasta():
             os.makedirs(nome_pasta)
             print(f'A pasta "{nome_pasta}" foi criada!')
             print("--------------------------------")
-            os.chdir(nome_pasta) # muda o diretório para a pasta criada
+            os.chdir('.') # muda o diretório para a pasta criada
     else:
             print("--------------------------------")
             print(f'Pasta "{nome_pasta}" já foi criada')
             print("--------------------------------")
-    os.chdir('.')
+    
 
 
 def exibe_caminho_atual():
